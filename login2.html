@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <head>
+            
+        </head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;box-sizing: border-box;
+            }
+            body{
+              
+                background-image:url(https://wallpaperaccess.com/thumb/4893666.jpg);
+               
+                
+               
+                
+                background-size: cover;
+            }
+            back{
+                width: 430px;
+                height: 520px;
+                position: absolute;
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top:50%;
+            }
+            .back .shape{
+                height: 200px;
+                width: 200px;
+                position: absolute;
+                border-radius: 50%;
+            }
+            form{
+                height: 500px;
+                width: 400px;
+                background-color: rgb(41, 50, 78);
+                position: absolute;
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top:50%;
+                border-radius: 10px;
+                backdrop-filter: blur(10px);
+                border: 2px solid gray;
+                box-shadow: 0 0 4px rgb(126, 124, 124);
+                padding: 50px 33px;
+            }
+            form *{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: rgb(148, 10, 10);
+                letter-spacing: 0.5px;
+                outline: none;
+                border: none;
+            }
+            h3{
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 42px;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+
+            }
+            label{
+                display: block;
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: 30px;
+            }
+            input{
+                display: block;
+                height: 50px;
+                width: 100%;
+                background-color: rgb(127, 161, 165);
+                border-radius: 3px;
+                padding: 0 10px;
+                margin-top: 8px;
+                font-size: 14px;
+                font-weight: 300;
+                color: aqua;
+            }
+            ::placeholder{
+                color: rgb(57, 72, 84);
+            }
+            button{
+                margin-top: 50px;
+                width: 100%;
+                background-color: aliceblue;
+                color: rgb(202, 17, 17);
+                padding: 15px 0;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: rgb(98, 95, 95);
+            }
+            icon{
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                text-align: center;
+            }
+           
+            
+            div.social-icon{
+                text-align: center;
+                background-color: blue;
+                border-radius: 20px;
+            }
+           nav-icon{
+                padding-top: 30%;
+                text-align: center;
+                width: 100ch;
+            }
+           a{
+            padding-top: 10%;
+            background-color: rgb(175, 176, 192);
+            text-align: center;
+            width: auto;
+            padding-top: 0%;
+            font-style: italic;
+            color: rgb(58, 82, 160);
+            height: 10px;
+            
+
+            
+           }
+            
+           
+        </style>
+    </head>
+
+
+    
+    <body>
+        <div class="back">
+            <div class="shape"></div>
+           
+
+        </div>
+        <form>
+            <h3>Login Here</h3>
+            <label for="Username">Username</label>
+            <input type="text" placeholder="Username" id="Username" required><br>
+            <label for="password">password</label>
+            <input type="password" placeholder="password" id="password" required><br>
+            <button>Log In</button>
+            <div class="nav-icon">
+                <a href="#">Forget password</a>
+           
+           
+           
+        </form>
+    </body>
+</html>
